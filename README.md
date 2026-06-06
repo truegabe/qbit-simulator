@@ -1,8 +1,37 @@
 # qbit-simulator
 
-A from-scratch quantum computing simulator written in pure **NumPy** — no Qiskit, no Cirq, no external quantum framework. State-vector, tensor-network, and stabilizer engines under one roof, with ~74 algorithms, error-correction codes, circuit compilation, noise channels, and a library of neuron models.
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
+![Powered by NumPy](https://img.shields.io/badge/powered%20by-NumPy-013243.svg?logo=numpy&logoColor=white)
+![Algorithms](https://img.shields.io/badge/algorithms-74-blueviolet.svg)
+![Tests](https://img.shields.io/badge/tests-2191-brightgreen.svg)
+![Dependencies](https://img.shields.io/badge/deps-numpy%20%2B%20scipy-lightgrey.svg)
 
-The package was validated against real IBM Quantum hardware (the `ibm_kingston` device) through a series of pre-registered experiments — see [`ibm_experiments/`](ibm_experiments/).
+> **Quantum computing from first principles.** Every gate, algorithm, and
+> error-correction code built from scratch on NumPy — no Qiskit, no Cirq, no
+> external quantum framework. Three simulation engines under one API, 74
+> algorithms, and a suite validated on real IBM Quantum hardware.
+
+## Highlights
+
+- ⚛️ **Three engines, one API** — dense state-vector (universal, exact),
+  tensor networks (MPS / DMRG / TEBD, scales with low entanglement), and the
+  stabilizer formalism (~10,000 Clifford qubits).
+- 🧮 **74 algorithms** — Grover, Shor, QFT, phase estimation, VQE, QAOA, HHL,
+  QSVT, amplitude estimation, error mitigation, plus quantum ML (kernels, SVM,
+  QCNN, autoencoders, RL).
+- 🛡️ **Real error correction** — surface code with MWPM decoding, magic-state
+  distillation, toric code, union-find decoder.
+- 🔧 **Compilation toolchain** — Solovay–Kitaev, KAK decomposition, ZX-calculus,
+  QASM import/export.
+- 🔬 **Validated on hardware** — pre-registered experiments executed on IBM's
+  `ibm_kingston` device, with raw results, under [`ibm_experiments/`](ibm_experiments/).
+- 🧪 **2,191 tests** across the core, algorithms, tensor networks, and noise.
+- 📦 **Tiny footprint** — pure NumPy + SciPy, `pip install` and go.
+
+A single qubit is stored as four real numbers `[Re α, Im α, Re β, Im β]`,
+making the amplitude/probability split explicit and the whole engine
+transparent end to end.
 
 ## Install
 
@@ -29,9 +58,6 @@ qc.cnot(0, 1)
 print(qc.state)          # [0.707+0j, 0, 0, 0.707+0j]
 print(measure(qc, shots=1000))   # ~50/50 over '00' and '11'
 ```
-
-A single qubit is stored as four real numbers `[Re α, Im α, Re β, Im β]` (the
-`Qubit` class), making the amplitude/probability split explicit.
 
 ## What's inside
 

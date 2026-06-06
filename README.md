@@ -1,7 +1,7 @@
-# qbit-simulator
+# Quantum Simulator
 
 <p align="center">
-  <img src="assets/cover.jpg" alt="qbit-simulator — a classical system that simulates the behavior of quantum systems" width="100%">
+  <img src="assets/cover.jpg" alt="Quantum Simulator — a classical system that simulates the behavior of quantum systems" width="100%">
 </p>
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
@@ -40,8 +40,8 @@ transparent end to end.
 ## Install
 
 ```bash
-git clone https://github.com/truegabe/qbit-simulator.git
-cd qbit-simulator
+git clone https://github.com/truegabe/Quantum-Simulator.git
+cd Quantum-Simulator
 pip install -r requirements.txt
 # or, as an editable package:
 pip install -e .

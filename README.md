@@ -1,5 +1,9 @@
 # qbit-simulator
 
+<p align="center">
+  <img src="assets/cover.jpg" alt="qbit-simulator — a classical system that simulates the behavior of quantum systems" width="100%">
+</p>
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 ![Powered by NumPy](https://img.shields.io/badge/powered%20by-NumPy-013243.svg?logo=numpy&logoColor=white)

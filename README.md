@@ -4,7 +4,7 @@
   <img src="assets/cover.jpg" alt="Quantum Simulator — a classical system that simulates the behavior of quantum systems" width="100%">
 </p>
 
-![License: free to use (MIT)](https://img.shields.io/badge/license-free%20to%20use%20(MIT)-brightgreen.svg)
+![Free to use — MIT](https://img.shields.io/badge/Free%20to%20use-MIT%20License-brightgreen.svg)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 ![Powered by NumPy](https://img.shields.io/badge/powered%20by-NumPy-013243.svg?logo=numpy&logoColor=white)
 ![Algorithms](https://img.shields.io/badge/algorithms-74-blueviolet.svg)
@@ -15,6 +15,8 @@
 > error-correction code built from scratch on NumPy — no Qiskit, no Cirq, no
 > external quantum framework. Three simulation engines under one API, 74
 > algorithms, and a suite validated on real IBM Quantum hardware.
+
+*Created by **Gabriel M. Dranca** with **Claude (Anthropic)**.*
 
 ## Highlights
 

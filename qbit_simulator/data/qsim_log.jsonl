@@ -1,0 +1,8 @@
+{"timestamp": 1778718238.1715865, "kind": "bell", "n_qubits": 2, "wall_seconds": 0.001, "peak_heap_mb": 0.0, "result_summary": {"probs": [0.5, 0.0, 0.0, 0.5]}, "notes": {}}
+{"timestamp": 1778718238.9073713, "kind": "grover", "n_qubits": 8, "wall_seconds": 0.0011423999967519194, "peak_heap_mb": 0.015157699584960938, "result_summary": {"marked": 5, "p_found": 0.9999470421032736}, "notes": {"marked": 5}}
+{"timestamp": 1778718238.9090364, "kind": "qft", "n_qubits": 3, "wall_seconds": 0.0007812000039848499, "peak_heap_mb": 0.007925987243652344, "result_summary": {}, "notes": {}}
+{"timestamp": 1778718238.9719734, "kind": "shor", "n_qubits": 8, "wall_seconds": 0.061949899994942825, "peak_heap_mb": 1.1634550094604492, "result_summary": {"target": 15, "factors": [3, 5]}, "notes": {"target": 15}}
+{"timestamp": 1778718239.0352046, "kind": "vqe_sto3g", "n_qubits": 2, "wall_seconds": 0.027273799998511095, "peak_heap_mb": 0.0053081512451171875, "result_summary": {"R": 0.74, "E_vqe": -1.1372838270609678, "E_exact": -1.1372838270609678}, "notes": {"R": 0.74, "model": "sto-3g"}}
+{"timestamp": 1778718239.037893, "kind": "teleport", "n_qubits": 3, "wall_seconds": 0.001414999998814892, "peak_heap_mb": 0.004601478576660156, "result_summary": {"fidelity": 0.9999999999999998, "m0": 0, "m1": 0}, "notes": {"theta": 0.6}}
+{"timestamp": 1778718239.1458898, "kind": "chsh", "n_qubits": 2, "wall_seconds": 0.10661760000220966, "peak_heap_mb": 0.0035905838012695312, "result_summary": {"quantum": 0.855, "classical": 0.72, "tsirelson": 0.8535533905932737}, "notes": {"rounds": 200}}
+{"timestamp": 1778719838.8468971, "kind": "grover", "n_qubits": 18, "wall_seconds": 0.0, "peak_heap_mb": 0.0, "result_summary": {"marked": 262143, "p_found": 0.999997838225846}, "notes": {}}

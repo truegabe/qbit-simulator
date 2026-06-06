@@ -1,0 +1,508 @@
+{
+  "date": "2026-05-23",
+  "backend": "ibm_kingston",
+  "job_id": "d88i48as46sc73f9g5bg",
+  "shots": 4096,
+  "wall_time_s": 50.4,
+  "gatekeeper": {
+    "JSD_hw_vs_noiseless": 0.0299,
+    "top3_hw": [
+      "01000",
+      "00000",
+      "11111"
+    ],
+    "top3_sim": [
+      "00000",
+      "11111",
+      "01000"
+    ],
+    "top3_overlap": 3,
+    "verdict": "H0 — same attractors (blurrier on HW)"
+  },
+  "NEXT1": {
+    "match_rate": 1.0,
+    "verdict": "QPU AGREES — can substitute for think() on uncertain queries",
+    "records": [
+      {
+        "seed": "music",
+        "classical_top5": [
+          "music",
+          "song",
+          "concert",
+          "baby",
+          "bus"
+        ],
+        "qpu_top3": [
+          [
+            "01000",
+            0.1445
+          ],
+          [
+            "00000",
+            0.1387
+          ],
+          [
+            "11111",
+            0.1331
+          ]
+        ],
+        "qpu_top3_active": [
+          [
+            "bus"
+          ],
+          [],
+          [
+            "music",
+            "song",
+            "concert",
+            "bus",
+            "baby"
+          ]
+        ],
+        "matched": true
+      },
+      {
+        "seed": "bus",
+        "classical_top5": [
+          "bus",
+          "passenger",
+          "car",
+          "baby",
+          "music"
+        ],
+        "qpu_top3": [
+          [
+            "00000",
+            0.2109
+          ],
+          [
+            "00111",
+            0.146
+          ],
+          [
+            "11111",
+            0.1384
+          ]
+        ],
+        "qpu_top3_active": [
+          [],
+          [
+            "bus",
+            "car",
+            "passenger"
+          ],
+          [
+            "bus",
+            "car",
+            "passenger",
+            "music",
+            "baby"
+          ]
+        ],
+        "matched": true
+      },
+      {
+        "seed": "song",
+        "classical_top5": [
+          "song",
+          "music",
+          "concert",
+          "baby"
+        ],
+        "qpu_top3": [
+          [
+            "01000",
+            0.1514
+          ],
+          [
+            "00000",
+            0.1462
+          ],
+          [
+            "11111",
+            0.0957
+          ]
+        ],
+        "qpu_top3_active": [
+          [
+            "car"
+          ],
+          [],
+          [
+            "song",
+            "music",
+            "concert",
+            "car",
+            "baby"
+          ]
+        ],
+        "matched": true
+      },
+      {
+        "seed": "concert",
+        "classical_top5": [
+          "concert",
+          "music",
+          "song",
+          "baby"
+        ],
+        "qpu_top3": [
+          [
+            "00000",
+            0.1584
+          ],
+          [
+            "11111",
+            0.0896
+          ],
+          [
+            "01000",
+            0.0891
+          ]
+        ],
+        "qpu_top3_active": [
+          [],
+          [
+            "concert",
+            "music",
+            "song",
+            "bus",
+            "baby"
+          ],
+          [
+            "bus"
+          ]
+        ],
+        "matched": true
+      },
+      {
+        "seed": "car",
+        "classical_top5": [
+          "car",
+          "bus",
+          "passenger"
+        ],
+        "qpu_top3": [
+          [
+            "00000",
+            0.1685
+          ],
+          [
+            "11111",
+            0.1313
+          ],
+          [
+            "11000",
+            0.1277
+          ]
+        ],
+        "qpu_top3_active": [
+          [],
+          [
+            "car",
+            "bus",
+            "passenger",
+            "music",
+            "baby"
+          ],
+          [
+            "music",
+            "baby"
+          ]
+        ],
+        "matched": true
+      },
+      {
+        "seed": "passenger",
+        "classical_top5": [
+          "passenger",
+          "bus",
+          "car"
+        ],
+        "qpu_top3": [
+          [
+            "00000",
+            0.1699
+          ],
+          [
+            "11111",
+            0.1477
+          ],
+          [
+            "11000",
+            0.1365
+          ]
+        ],
+        "qpu_top3_active": [
+          [],
+          [
+            "passenger",
+            "bus",
+            "car",
+            "music",
+            "baby"
+          ],
+          [
+            "music",
+            "baby"
+          ]
+        ],
+        "matched": true
+      },
+      {
+        "seed": "music",
+        "classical_top5": [
+          "music",
+          "song",
+          "concert",
+          "baby",
+          "bus"
+        ],
+        "qpu_top3": [
+          [
+            "00000",
+            0.1772
+          ],
+          [
+            "11000",
+            0.1755
+          ],
+          [
+            "00111",
+            0.1086
+          ]
+        ],
+        "qpu_top3_active": [
+          [],
+          [
+            "passenger",
+            "car"
+          ],
+          [
+            "music",
+            "song",
+            "concert"
+          ]
+        ],
+        "matched": true
+      },
+      {
+        "seed": "bus",
+        "classical_top5": [
+          "bus",
+          "passenger",
+          "car",
+          "baby",
+          "music"
+        ],
+        "qpu_top3": [
+          [
+            "11000",
+            0.1899
+          ],
+          [
+            "00000",
+            0.1877
+          ],
+          [
+            "00111",
+            0.1365
+          ]
+        ],
+        "qpu_top3_active": [
+          [
+            "concert",
+            "song"
+          ],
+          [],
+          [
+            "bus",
+            "car",
+            "passenger"
+          ]
+        ],
+        "matched": true
+      },
+      {
+        "seed": "song",
+        "classical_top5": [
+          "song",
+          "music",
+          "concert",
+          "baby"
+        ],
+        "qpu_top3": [
+          [
+            "11000",
+            0.1853
+          ],
+          [
+            "00000",
+            0.1616
+          ],
+          [
+            "11111",
+            0.1345
+          ]
+        ],
+        "qpu_top3_active": [
+          [
+            "bus",
+            "car"
+          ],
+          [],
+          [
+            "song",
+            "music",
+            "concert",
+            "bus",
+            "car"
+          ]
+        ],
+        "matched": true
+      },
+      {
+        "seed": "concert",
+        "classical_top5": [
+          "concert",
+          "music",
+          "song",
+          "baby"
+        ],
+        "qpu_top3": [
+          [
+            "00000",
+            0.1785
+          ],
+          [
+            "11000",
+            0.1626
+          ],
+          [
+            "00111",
+            0.1348
+          ]
+        ],
+        "qpu_top3_active": [
+          [],
+          [
+            "passenger",
+            "car"
+          ],
+          [
+            "concert",
+            "music",
+            "song"
+          ]
+        ],
+        "matched": true
+      }
+    ]
+  },
+  "NEXT2": {
+    "3": {
+      "N": 3,
+      "shot_noise_floor": 0.00517,
+      "C_XXX": 0.9102,
+      "C_XYY": -0.9155,
+      "C_YXY": -0.9146,
+      "C_YYX": -0.9121,
+      "M3": 3.6523,
+      "classical_bound": 2,
+      "quantum_max": 4,
+      "violation": true
+    },
+    "5": {
+      "N": 5,
+      "shot_noise_floor": 0.00272,
+      "GHZ_fidelity": 0.9248,
+      "C_X": 0.856,
+      "C_XXXYY": -0.8701,
+      "C_YYXXX": -0.8447,
+      "M_est_3term": 2.5708,
+      "ideal_M_est": 3,
+      "note": "M_est is a 3-term proxy — not the full Mermin polynomial. Ideal GHZ gives M_est=3. Classical max is also 3, so this is NOT a Bell inequality violation test — use N=3 M3 for that."
+    },
+    "7": {
+      "N": 7,
+      "shot_noise_floor": 0.00138,
+      "GHZ_fidelity": 0.8938,
+      "C_X": 0.7861,
+      "C_XXXXXYY": -0.8218,
+      "C_YYXXXXX": -0.8115,
+      "M_est_3term": 2.4194,
+      "ideal_M_est": 3,
+      "note": "M_est is a 3-term proxy — not the full Mermin polynomial. Ideal GHZ gives M_est=3. Classical max is also 3, so this is NOT a Bell inequality violation test — use N=3 M3 for that."
+    }
+  },
+  "NEXT3": {
+    "d=1 (0,1)": {
+      "target_dist": 1,
+      "qubits": [
+        0,
+        1
+      ],
+      "correlators": [
+        0.6084,
+        0.604,
+        0.5229,
+        -0.521
+      ],
+      "S": 2.2563,
+      "classical_bound": 2.0,
+      "tsirelson_bound": 2.8284,
+      "violation": true
+    },
+    "d=2 (0,2)": {
+      "target_dist": 2,
+      "qubits": [
+        0,
+        2
+      ],
+      "correlators": [
+        0.583,
+        0.6035,
+        0.5093,
+        -0.5303
+      ],
+      "S": 2.2261,
+      "classical_bound": 2.0,
+      "tsirelson_bound": 2.8284,
+      "violation": true
+    },
+    "d=4 (0,4)": {
+      "target_dist": 4,
+      "qubits": [
+        0,
+        4
+      ],
+      "correlators": [
+        0.6572,
+        0.6797,
+        0.5762,
+        -0.5859
+      ],
+      "S": 2.499,
+      "classical_bound": 2.0,
+      "tsirelson_bound": 2.8284,
+      "violation": true
+    },
+    "d=8 (0,8)": {
+      "target_dist": 8,
+      "qubits": [
+        0,
+        8
+      ],
+      "correlators": [
+        0.6387,
+        0.5659,
+        0.5381,
+        -0.5679
+      ],
+      "S": 2.3105,
+      "classical_bound": 2.0,
+      "tsirelson_bound": 2.8284,
+      "violation": true
+    }
+  }
+}

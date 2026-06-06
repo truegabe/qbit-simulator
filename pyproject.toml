@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qbit-simulator"
+version = "0.1.0"
+description = "A from-scratch quantum computing simulator in NumPy: state-vector, tensor-network, and stabilizer engines with ~74 algorithms."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+]
+
+[project.optional-dependencies]
+viz = ["matplotlib>=3.4"]
+test = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["qbit_simulator*"]

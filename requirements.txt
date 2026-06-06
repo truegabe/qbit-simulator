@@ -1,0 +1,4 @@
+numpy>=1.21
+scipy>=1.7
+# Optional, only for visualisation (qbit_simulator/viz.py, bloch.py):
+# matplotlib>=3.4

@@ -4,7 +4,7 @@
   <img src="assets/cover.jpg" alt="Quantum Simulator — a classical system that simulates the behavior of quantum systems" width="100%">
 </p>
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![License: free to use (MIT)](https://img.shields.io/badge/license-free%20to%20use%20(MIT)-brightgreen.svg)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 ![Powered by NumPy](https://img.shields.io/badge/powered%20by-NumPy-013243.svg?logo=numpy&logoColor=white)
 ![Algorithms](https://img.shields.io/badge/algorithms-74-blueviolet.svg)
@@ -139,4 +139,7 @@ correction, and noise channels.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+**Free to use.** You may use, copy, modify, merge, publish, distribute,
+sublicense, and sell this software — including for commercial purposes — at no
+cost. It is released under the permissive **MIT License**; the only condition
+is that the copyright notice be kept. See [LICENSE](LICENSE).
